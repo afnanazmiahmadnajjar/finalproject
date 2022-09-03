@@ -1,0 +1,24 @@
+.title {
+  display: flex;
+  text-align: center;
+  color: teal;
+  margin-left: 30%;
+}
+
+.nav {
+  background-color: #333;
+  overflow: hidden;
+  height: 70px;
+  position: relative;
+}
+
+.navbarItem {
+  background-color: #333;
+  overflow: hidden;
+  height: 70px;
+  position: relative;
+}
+
+.navbarItem:hover {
+  background-color: #8fe3cf;
+}

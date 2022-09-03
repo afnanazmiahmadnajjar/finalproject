@@ -1,0 +1,26 @@
+.StudentCourse {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 1fr;
+  background-color: #256d85;
+  border-radius: 50px;
+
+  margin: 20px;
+}
+h2 {
+  text-align: center;
+}
+.deleteButton {
+  width: 70px;
+  height: 70px;
+  background: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  text-decoration: none;
+}
+.deleteButton:hover {
+  background: skyblue;
+}
